@@ -1,5 +1,7 @@
 # LITTlinux
 
+<img src="assests/logo-wb-trans-LITTlinux.png" width="50%" height="50%">
+
 *Live in the Terminal (LITT)*
 
 ## Apps
