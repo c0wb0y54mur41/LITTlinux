@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Samurai Linux CLI
+# LITTlinux - Live in the Terminal
 # A Bash Script for Alpine Linux
 
 # Author: c0wb0y54mur41
