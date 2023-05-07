@@ -46,4 +46,4 @@ echo "set preview_images true" >> ~/.config/ranger/rc.conf
 echo "neofetch" >> ~/.config/fish/config.fish
 
 # Print message to inform script completed
-echo "Installation and configuration complete. Fish is now the default terminal for all users and future users."
+echo "Installation and configuration complete."
