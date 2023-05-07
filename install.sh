@@ -6,6 +6,15 @@
 # Author: c0wb0y54mur41
 # Website: https://c0wb0y54mur41.dev/
 
+# Update package index then Upgrade installed packages
+apk update && apk upgrade
+
+# Uncomment the community repositories
+sed -i '/^#.*community/s/^#//' /etc/apk/repositories
+
+# Update the package index
+apk update
+
 # Install necessary packages
 apk add fish neovim ranger htop neofetch weechat
 
