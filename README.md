@@ -10,7 +10,7 @@
 
 Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.
 
-[Lynx](https://lynx.invisible-island.net/)
+### [Lynx](https://lynx.invisible-island.net/)
 
 Lynx is a text based browser.
 
