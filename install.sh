@@ -16,7 +16,7 @@ sed -i '/^#.*community/s/^#//' /etc/apk/repositories
 apk update
 
 # Install necessary packages
-apk add fish neovim ranger htop neofetch weechat
+apk add fish neovim ranger htop neofetch weechat lynx
 
 # Install Oh My Fish
 curl -L https://get.oh-my.fish | fish
@@ -50,6 +50,14 @@ nvim -c 'PlugInstall' -c 'qa!'
 # Configure Ranger
 ranger --copy-config=all
 echo "set preview_images true" >> ~/.config/ranger/rc.conf
+
+# Configure Lynx browser
+echo "KEYMAP=\"us-std\"" >> /etc/lynx.cfg
+echo "PERSISTENT_COOKIES:TRUE" >> /etc/lynx.cfg
+echo "DEFAULT_CHARSET:utf-8" >> /etc/lynx.cfg
+
+# Create a symbolic link to enable running lynx command
+ln -s /usr/bin/lynx /usr/local/bin/lynx
 
 # Add neofetch to Fish shell startup
 echo "neofetch" >> ~/.config/fish/config.fish
