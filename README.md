@@ -10,6 +10,10 @@
 
 Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.
 
+[Lynx](https://lynx.invisible-island.net/)
+
+Lynx is a text based browser.
+
 ### [Fish](https://fishshell.com/)
 
 fish is a smart and user-friendly command line shell for Linux, and the rest of the family.
