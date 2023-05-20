@@ -56,3 +56,6 @@ echo "neofetch" >> ~/.config/fish/config.fish
 
 # Print message to inform script completed
 echo "Installation and configuration complete."
+
+# Exit Code
+exit 0
