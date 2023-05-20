@@ -42,4 +42,4 @@ WeeChat, the extensible chat client. Fast — Light — Free software Powerful, 
 
 Install [Alpine Linux](https://www.alpinelinux.org/).
 
-Clone this repo on your Alpine Linux machine, make install.sh executable using `chmod +x install.sh`, and then run it with `./install.sh`. After the script completes successfully, Fish will be set as the default terminal for all and future users, and the other applications should be installed and configured as well.
+Clone this repo on your Alpine Linux machine, make install.sh executable using `chmod 744 install.sh`, and then run it with `./install.sh`. After the script completes successfully, Fish will be set as the default terminal for all and future users, and the other applications should be installed and configured as well.
